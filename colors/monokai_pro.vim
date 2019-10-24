@@ -64,6 +64,7 @@ hi Type ctermfg=116 ctermbg=NONE cterm=NONE guifg=#78dce8 guibg=NONE gui=italic
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
 hi Error ctermfg=NONE ctermbg=NONE cterm=underline guifg=#ff6188 guibg=NONE gui=underline
 hi Warning ctermfg=NONE ctermbg=NONE cterm=underline guifg=#ffd866 guibg=NONE gui=underline
+hi CocErrorHighlight ctermfg=204 guifg=#ff6188
 " ffd866
 " Color for custom group
 " hi EndColons ctermfg=246 ctermbg=NONE cterm=NONE guifg=#939293 guibg=NONE gui=NONE
