@@ -41,8 +41,8 @@ hi DiffAdd ctermfg=231 ctermbg=64 cterm=bold guifg=#d6d6cc guibg=#47840e gui=bol
 hi DiffDelete ctermfg=88 ctermbg=NONE cterm=NONE guifg=#8c0809 guibg=NONE gui=NONE
 hi DiffChange ctermfg=231 ctermbg=23 cterm=NONE guifg=#d6d6cc guibg=#273a5b gui=NONE
 hi DiffText ctermfg=231 ctermbg=24 cterm=bold guifg=#d6d6cc guibg=#204a87 gui=bold
-hi ErrorMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
-hi WarningMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=NONE guibg=NONE gui=NONE
+hi ErrorMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ff6188 guibg=NONE gui=NONE
+hi WarningMsg ctermfg=NONE ctermbg=NONE cterm=NONE guifg=#ffd866 guibg=NONE gui=NONE
 hi Float ctermfg=147 ctermbg=NONE cterm=NONE guifg=#ab9df2 guibg=NONE gui=NONE
 hi Function ctermfg=150 ctermbg=NONE cterm=NONE guifg=#a9dc76 guibg=NONE gui=NONE
 hi Identifier ctermfg=116 ctermbg=NONE cterm=NONE guifg=#78dce8 guibg=NONE gui=italic
@@ -62,7 +62,9 @@ hi Title ctermfg=231 ctermbg=NONE cterm=bold guifg=#d6d6cc guibg=NONE gui=bold
 hi Todo ctermfg=231 ctermbg=NONE cterm=inverse,bold guifg=#d6d6cc guibg=NONE gui=inverse,bold,italic
 hi Type ctermfg=116 ctermbg=NONE cterm=NONE guifg=#78dce8 guibg=NONE gui=italic
 hi Underlined ctermfg=NONE ctermbg=NONE cterm=underline guifg=NONE guibg=NONE gui=underline
-
+hi Error ctermfg=NONE ctermbg=NONE cterm=underline guifg=#ff6188 guibg=NONE gui=underline
+hi Warning ctermfg=NONE ctermbg=NONE cterm=underline guifg=#ffd866 guibg=NONE gui=underline
+" ffd866
 " Color for custom group
 " hi EndColons ctermfg=246 ctermbg=NONE cterm=NONE guifg=#939293 guibg=NONE gui=NONE
 " hi link Braces EndColons
